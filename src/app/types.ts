@@ -1,0 +1,24 @@
+export type ChangeOrderData = {
+    clientName: string;
+    coinTotal: number;
+    created_at: string;
+    deliveryDate: string;
+    fifty: number | null;
+    fiftyC: number | null;
+    five: number | null;
+    fiveC: number | null;
+    grandTotal: number;
+    id: number;
+    noteTotal: number;
+    one: number | null;
+    orderDate: string;
+    run: string;
+    status:  "unprocessed" | "packed" | "dispatched" | "pending count" | "processed";
+    ten: number | null;
+    tenC: number | null;
+    twenty: number | null;
+    twentyC: number | null;
+    two: number | null;
+    guardReturnValue: number | null;
+    guardDiscrepancyReason: string | null;
+};
